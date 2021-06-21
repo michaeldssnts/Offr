@@ -15,7 +15,7 @@
 	
 
 		
-<div valign="top"><?php include 'Include/header.php';?></div>	
+<div valign="top"><?php include 'Include/header.php';?> </div>	
 
 	
 	
@@ -102,13 +102,8 @@
 
 <div valign="top"><?php include 'Include/map.html';?></div>
      				
-
-	
 <h3>Community Forum</h3>
-	<p>Browse and participate on our community forum to get help from fellow members. Send us any suggestions and feedback on your experience - we are always keen to listen to anything you have to say.  <a href="#" style="color:#FE7133"><strong> Visit our support forum</strong></a></p>	
-
-   
-            	
+	<p>Browse and participate on our community forum to get help from fellow members. Send us any suggestions and feedback on your experience - we are always keen to listen to anything you have to say.  <a href="#" style="color:#FE7133"><strong> Visit our support forum</strong></a></p>	          	
 <h3>Book a Demo</h3>
 	<p>Request a customised demonstration for you and your team and discover how you can take your business and service to the next level.     <a href="#" style="color:#FE7133"><strong>Book a Demo</strong></a></p>		
 
@@ -116,10 +111,7 @@
               	
 <h3>Buying or Selling</h3>
 	<p>Whether you're looking for an agent to sell your property or buying a property. We will make the entire process fast and stress free.     <a href="#" style="color:#FE7133"><strong>Buying or Selling</strong></a></p>		
-
-
-
-				</div>
+			</div>
                
             </div>
 
@@ -131,9 +123,6 @@
 	
 	<script src="js/simple-forms-translations.js"></script>
 <script src="js/simple-forms.min.js"></script>
-
-
-
 <script>
     var simple_forms = new SimpleForms("#contact-form", {
         theme: "white",
@@ -145,5 +134,4 @@
 
     
 </body>
-
 </html>
