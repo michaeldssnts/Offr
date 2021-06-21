@@ -1,0 +1,93 @@
+
+/* Web Font */
+* {
+    font-family: 'Titillium Web', sans-serif; 
+  }
+  
+  /* Relative positioning*/
+  #image-map {
+    position: relative;
+    margin: 10px auto 0px auto;
+  }
+  
+  /* Hide the original tooltips contents */
+  .pin {
+    display: none;
+  }
+  
+  /* Begin styling the tooltips and pins */
+  .tooltip-up, .tooltip-down {
+  
+    position: absolute;
+    background: url(https://yohagency.co.za/Offr/images/circle.svg);
+    width: 85px;
+    height: 85px;
+  }
+  
+  
+  
+  .tooltip-down {
+    background-position: center;
+  }
+  
+  .tooltip {
+    display: none;
+    width: 200px;
+    cursor: hand;
+    position: absolute;
+    top: -95px;
+    left: 50%;
+    z-index: 999;
+    margin-left: -95px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 8px;
+    background: #95108c;
+        
+  }
+  
+  .tooltip::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+  
+    border-left: 10px solid transparent;
+    border-right : 10px solid transparent;
+  }
+  
+  .tooltip-down .tooltip {
+    bottom: 12px;
+    top: auto;
+  }
+  
+  .tooltip-down .tooltip::after {
+    bottom: -10px;
+    top: auto;
+    border-bottom: 0;
+    border-top: 10px solid #95108c;
+  }
+  
+  .tooltip h2 {
+    font: bold 1.3em 'Trebuchet MS', Tahoma, Arial;
+    margin: 0 0 10px;
+    color: #ffffff;
+  }
+  
+  .tooltip ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .tooltip a {
+  color: #ffdb90;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  
+  }
+  
+  
